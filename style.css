@@ -67,10 +67,10 @@ button{
     font-size: 2rem;
 }
 textarea{
-    width: 200%;
-    padding: 2rem;
+    width:100%;
+    padding:1rem;
 }
 input{
-    width: 200%;
-    padding: 1rem;
+    width:100%;
+    padding:1rem;
 }
