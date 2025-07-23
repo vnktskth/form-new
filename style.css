@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 0.1rem solid crimson; */
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #c0b8b8;
+}
+:root{
+    --primaryColor:#ffafb8;
+    --secondaryColor:#887a7a;
+    --tertiararyColor:#ffffff;
+    --ffprimary:"Playfair Display";
+}
+header{
+    width: 100%; 
+    height: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.screensize{
+   max-width: 600px;
+   margin: auto;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dflex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: var(--ffprimary);
+    padding-top: 6rem;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.form-text{
+    margin: 0rem 0rem 2rem 0rem;
+    font-family: var(--ffprimary);
+    font-size: 1rem;
+}
+label{
+    font-family: var(--ffprimary);
+    font-size:2rem ;
+}
+button{
+    padding: 0.8rem;
+    margin-top: 2rem;
+    background-color: var(--secondaryColor);
+    color: var(--tertiararyColor);
+    font-weight: 400;
+    font-size: 2rem;
+}
+textarea{
+    width: 200%;
+    padding: 2rem;
+}
+input{
+    width: 200%;
+    padding: 1rem;
+}
