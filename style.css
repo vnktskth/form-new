@@ -87,4 +87,8 @@ input{
     .hello{
     margin-top: 5rem;
     }
+
+    .email{
+        padding: 0rem 5rem;
+    }
 }
